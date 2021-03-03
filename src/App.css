@@ -1,0 +1,9 @@
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 10px;
+  margin: 0 auto;
+}

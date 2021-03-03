@@ -1,0 +1,34 @@
+.Friend {
+  display: grid;
+  grid-template-columns: 37% 60%;
+  grid-gap: 2%;
+  box-shadow: 0px 0px 10px 0px #00000059;
+  margin-bottom: -2px;
+}
+
+.Friend .image {
+  margin-bottom: -2px;
+}
+.Friend img {
+  height: 200px;
+  margin-right: 10px;
+}
+
+.Friend .selery-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Friend .selery-btn button {
+  background-color: #17b7ff;
+  color: #ffffff;
+  padding: 5px 15px;
+  border: 1px solid #02a0e9;
+  cursor: pointer;
+  outline: 0;
+  transition: 0.3s;
+}
+.Friend .selery-btn button:hover {
+  background-color: #02a0e9;
+  border: 1px solid #17b7ff;
+}

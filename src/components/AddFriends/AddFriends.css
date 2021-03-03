@@ -1,0 +1,15 @@
+.AddFriends {
+  display: grid;
+  grid-template-columns: 75% 22%;
+  grid-gap: 3%;
+}
+
+.friend-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.friend-count {
+  position: sticky;
+}
